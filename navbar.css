@@ -1,0 +1,73 @@
+.bcard{
+    background-color: aqua!important;
+ 
+}
+.red{
+    background-color: red!important;
+}
+.navbar-collapse {
+
+    flex-grow: 0;
+    align-items: center;
+}
+.header{
+    background-color: aqua!important;
+    padding: 0.5rem 1rem!important;
+    border-radius: 10px!important;
+    margin: 0!important;
+    border: 1px solid #e7e7e7!important;
+    border-bottom: 1px solid #e7e7e7!important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)!important;
+    
+}
+.submit{
+    background-color: #007bff!important;
+    color: white!important;
+    border-radius: 5px!important;
+    padding: 0.5rem 1rem!important;
+    border: none!important;
+    cursor: pointer!important;
+    font-size: 1rem!important;
+    font-weight: bold!important;
+    padding: 5px 10px!important;
+    margin: 0!important;
+    border: 1px solid #007bff!important;
+    text-align: center!important;
+
+}
+
+.hover:hover {
+    background-color: #007bff!important;
+    color: white!important;
+    border-radius: 15px!important;
+    border-top-right-radius:0px!important;
+    border-bottom-left-radius:0px!important;
+    padding: 0.5rem 1rem!important;
+    border: none!important;
+    cursor: pointer!important;
+    font-size: 1rem!important;
+    font-weight: bold!important;
+    padding: 5px 10px!important;
+    margin: 0!important;
+    border: 1px solid #007bff!important;
+    text-align: center!important;
+    margin: 2px 5px!important;
+}
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        flex-grow: 1;
+        align-items: flex-start;
+    }
+    .ul-bg{
+        background-color: lightsalmon!important;
+        padding: 0.5rem 1rem!important;
+        border-radius: 10px!important;
+        margin: 0!important;
+        border: 1px solid #e7e7e7!important;
+        border-bottom: 1px solid #e7e7e7!important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)!important;
+    } 
+    
+    
+
+}
